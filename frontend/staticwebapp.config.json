@@ -20,7 +20,7 @@
                 },
                 "login": {
                     "loginParameters": [
-                        "scope=openid profile email https://graph.microsoft.com/User.Read"
+                        "scope=openid"
                     ]
                 }
             }
