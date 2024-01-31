@@ -20,7 +20,7 @@
                 },
                 "login": {
                     "loginParameters": [
-                        "resource=https://graph.microsoft.com"
+                        "scope=openid profile email https://graph.microsoft.com/.default"
                     ]
                 }
             }
