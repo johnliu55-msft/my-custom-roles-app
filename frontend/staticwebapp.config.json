@@ -20,7 +20,7 @@
                 },
                 "login": {
                     "loginParameters": [
-                        "resource=https://graph.microsoft.com"
+                        "scope=https://graph.microsoft.com"
                     ]
                 }
             }
