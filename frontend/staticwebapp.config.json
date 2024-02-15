@@ -10,21 +10,7 @@
         }
     ],
     "auth": {
-        "rolesSource": "/api/GetRoles",
-        "identityProviders": {
-            "azureActiveDirectory": {
-                "registration": {
-                    "openIdIssuer": "https://login.microsoftonline.com/organizations/v2.0",
-                    "clientIdSettingName": "AAD_CLIENT_ID",
-                    "clientSecretSettingName": "AAD_CLIENT_SECRET"
-                },
-                "login": {
-                    "loginParameters": [
-                        "scope=openid profile email https://graph.microsoft.com/.default"
-                    ]
-                }
-            }
-        }
+        "rolesSource": "/api/GetRoles"
     },
     "globalHeaders": {
         "Cache-Control": "no-cache"
